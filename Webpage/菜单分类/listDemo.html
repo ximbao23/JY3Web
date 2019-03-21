@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div
+			{
+				float: left;
+			}
+			#category
+			{
+				width: 190px;
+				height: 480px;
+				background-color: fuchsia;
+			}
+			ul
+			{
+				list-style: none;
+			}
+			a
+			{
+				text-decoration: none;
+				color: black;
+			}
+			#div2
+			{
+				width: 998px;
+				height: 480px;
+				background-color: orange;
+				display: none;
+			}
+			#category:hover + #div2
+			{
+				display: block;
+			}
+			#div2:hover
+			{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="category">
+			<ul>
+				<li><a href="#">家电</a></li>
+				<li><a href="#">服装</a></li>
+				<li><a href="#">家电</a></li>
+				<li><a href="#">服装</a></li>
+				<li><a href="#">服装</a></li>
+				<li><a href="#">健康</a></li>
+			</ul>
+		</div>
+		<div id="div2">
+			
+		</div>
+	</body>
+</html>
