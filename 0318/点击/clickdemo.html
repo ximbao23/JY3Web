@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*
+			{
+				margin: 0;
+				padding: 0;
+			}
+			body
+			{
+				position: fixed;
+				width: 100%;
+				height: 100%;
+			}
+			#a21
+			{
+				width: 100%;
+				height: 100%;
+				background-color:blue;
+			}
+			#a22
+			{
+				width: 100%;
+				height: 100%;
+				background-color: red;
+				position: absolute;
+				top: 0px;
+				transition: all 0.7s linear;
+				/*left: 0px;*/
+			}
+			ul li
+			{
+				text-indent: 40px;
+			}
+			a
+			{
+				color: white;
+				text-decoration: none;
+				font-size: 30px;
+			}
+			.move
+			{
+				/*position: absolute;*/
+				transform: translate(150px);
+				/*left: 150px;
+				background-color: palegreen;*/
+			}
+		</style>
+	</head>
+	<script type="text/javascript" src="../js/jquery.js">
+			
+		</script>
+	<body>
+		<div id="a21">
+			<ul>
+				<li><a href="#">java</a></li>
+				<li><a href="#">java</a></li>
+				<li><a href="#">java</a></li>
+				<li><a href="#">java</a></li>
+				<li><a href="#">java</a></li>
+			</ul>
+		</div>
+		<div id="a22">
+			<input type="button" value="点击" id="btn1"/>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("#btn1").click(function(){
+				$("#a22").toggleClass("move");
+			})
+		})
+	</script>
+</html>
