@@ -1,0 +1,60 @@
+#signal
+{
+	/*width: 100%;*/
+	height: 15px;
+	background-color: darkgray;
+	display: flex;
+	flex-direction: row;
+	font-size: 8px;
+}
+.subdiv
+{
+	height: 100%;
+}
+.no
+{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: white;
+}
+#have
+{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+#signal ul
+{
+	list-style: none;
+	display: flex;
+	margin-left: 3px;
+}
+#left
+{
+	flex: 0.4;
+	display: flex;
+	align-items: center;
+}
+#middle
+{
+	flex: 0.2;
+}
+#right
+{
+	flex: 0.4;
+	display: flex;
+	justify-content: flex-end;
+}
+img
+{
+	width: 12px;
+	height: 12px;
+}
+#erhao
+{
+	width: 18px;
+	height: 16px;
+}

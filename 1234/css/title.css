@@ -1,0 +1,20 @@
+#title
+{
+	/*width: 100%;*/
+	height: 30px;
+	background-color: darkcyan;
+	line-height: 30px;
+	text-indent: 5px;
+}
+#big
+{
+	width: 15px;
+	height: 15px;
+	padding-left: 170px;
+}
+#copy
+{
+	width: 15px;
+	height: 15px;
+	padding-left: 21px;
+}
