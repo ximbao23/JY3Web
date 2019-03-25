@@ -44,3 +44,11 @@ text-align: right;
 {
 	color: black;
 	}
+#not
+{
+	width: 15px;
+	height: 15px;
+	/*position: relative;
+	top: 30px;*/
+}
+

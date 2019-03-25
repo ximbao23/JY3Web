@@ -8,13 +8,15 @@
 }
 #big
 {
+	position: relative;
 	width: 15px;
 	height: 15px;
-	padding-left: 170px;
+	left: 220px;
 }
 #copy
 {
+	position: relative;
 	width: 15px;
 	height: 15px;
-	padding-left: 21px;
+	left: 234px;
 }
