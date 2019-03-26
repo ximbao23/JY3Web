@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<title></title>
+		<style>
+			.img1
+			{
+				width: 30px;
+				height: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+
+		</div>
+		<button id="btn1">点击发送</button>
+		<script>
+			$(function(){
+				$("#container").css({"width":"600px","height":"600px","border":"1px solid","display":"flex","flex-direction":"column"});
+				$("#btn1").click(function(){
+					$("#container").append("<img src='../img/hsh.jpg' class='img1'><span>在干嘛</span>")
+				})
+			})
+		</script>
+	</body>
+</html>
