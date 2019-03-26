@@ -2,48 +2,62 @@
 {
 	flex: 1;
 	overflow: scroll;
-	padding: 5px;
+/*	padding: 5px;*/
+	background-color: darkgray;
 }
 .friend
 {
 	width: 100%;
-	height: 50px;
+	height: 55px;
 	border-bottom: 1px solid darkgray;
 	display: flex;
+	background-color: white;
+	align-items: center;
 }
 #lef
 {
-	width: 50px;
-	height: 51px;
+	width: 55px;
+	height: 56px;
 	border-radius: 6px;
 	overflow: hidden;
 }
 #lef img
 {
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
+	margin: 7px;
 }
 #rig
 {
 	flex: 1;
-	height: 50px;
-	line-height: 50px;
+	height: 55px;
+	line-height: 55px;
 }
 #rig span
 {
 	color: black;
-	font-size: 30px;
+	font-size: 18px;
 	margin-left: 25px;
 }
 #block
 {
 	width: 100%;
-	height: 30px;
-	background-color: darkgray;
+	height: 15px;
 }
 #block span
 {
 	color: black;
 	font-size: 20px;
 	margin-left: 8px;
+}
+#red
+{
+	width: 30px;
+	height: 30px;
+	margin-right: 8px;
+}
+#red img
+{
+	width: 30px;
+	height: 30px;
 }
