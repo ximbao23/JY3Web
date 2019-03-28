@@ -1,0 +1,107 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	background-color: antiquewhite;
+	position: fixed;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#container
+{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+#lefth img
+{
+	width: 80px;
+	height: 80px;
+	margin: 8px;
+}
+#logo
+{
+	width: 400px;
+	height: 250px;
+	/*border: 1px solid black;*/
+	margin-left: 310px;
+	margin-top: 160px;
+}
+#logo img
+{
+	width: 400px;
+	height: 250px;
+}
+#yours
+{
+	width: 100%;
+	height: 100px;
+	/*background-color: aqua;*/
+	font-size: 50px;
+	margin-top: 43px;
+	text-indent: 130px;
+}
+#mima
+{
+	width: 100%;
+	height: 100px;
+	/*background-color: aqua;*/
+	font-size: 50px;
+	margin-top: 8px;
+	text-indent: 130px;
+}
+.zm
+{
+	width: 500px;
+	height: 70px;
+	font-size: 70px;
+}
+#check
+{
+	width: 100%;
+	height: 200px;
+	/*background-color: hotpink;*/
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#leftc
+{
+	width: 250px;
+	height: 130px;
+	font-size: 50px;
+	background-color: red;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+
+#rightc
+{
+	width: 250px;
+	height: 130px;
+	font-size: 50px;
+	background-color: red;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+}
+#ps
+{
+	width: 300px;
+	height: 40px;
+	margin-top: 680px;
+	margin-left: 350px;
+	/*background-color: khaki;*/
+	font-size: 27px;
+}
+a
+{
+	text-decoration: none;
+}
